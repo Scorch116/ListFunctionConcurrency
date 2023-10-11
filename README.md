@@ -5,9 +5,11 @@ This will save the user time going through the console to find out which functio
 
 Note: Lambda Execution role will need the following permissions:
 
-lambda:GetFunctionConcurrency
-lambda:ListFunctions
-lambda:ListProvisionedConcurrencyConfigs
+- lambda:GetFunctionConcurrency
+
+- lambda:ListFunctions
+
+- lambda:ListProvisionedConcurrencyConfigs
 
 
 The following application code can be simply run in a Lambda function.
